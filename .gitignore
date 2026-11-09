@@ -1,0 +1,25 @@
+# Python bytecode / build
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Data: keep the folders, ignore the files
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
